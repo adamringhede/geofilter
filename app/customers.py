@@ -4,9 +4,6 @@ import os
 import json
 
 
-FILE_LOCATION = os.path.join(os.path.dirname(__file__), "../data/customers.txt")
-
-
 @dataclass
 class Customer():
     user_id: int
